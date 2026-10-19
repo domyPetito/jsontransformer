@@ -1,0 +1,40 @@
+status: stato
+err: errore
+
+company:
+  _target: azienda
+  id: id
+  name: nome
+  vat: partitaIVA
+
+fields:
+  _target: campi
+  status: stato
+  err: errore
+  boxId: id_casella
+  raw: grezzo
+  clean: pulito
+
+articles:
+  _target: articoli
+  Art. Cliente: art_cliente
+  Descrizione: descrizione
+  SPESS.: spessore
+  FOGLI: fogli
+  U.M.: unitaMisura
+  QUANTITA': quantita
+
+
+
+#include:
+#  nome: nome
+#  cognome: cognome
+#  eta: eta
+#  genere: genere
+#  indirizzo:
+#    _target: indirizzo
+#    citta: citta
+#    CAP: CAP
+#    vie: vie
+#    email: email
+#    telefono: telefono
